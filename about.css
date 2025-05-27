@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 20px; /* Larger font */
+}
+
+/* Navigation bar */
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: white; /* White background */
+  padding: 10px;
+  margin: 0;
+  overflow-x: auto;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: black; /* Black text */
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #4CAF50;
+}
+
+/* About Section */
+.about-section {
+  padding: 30px;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.intro img {
+  width: 130px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.intro p {
+  font-size: 20px;
+}
+
+.highlight {
+  color: #4CAF50;
+}
+
+.section-title {
+  color: #4CAF50;
+  font-size: 26px;
+  margin-top: 30px;
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+}
+
+.info-table p {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Interests */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.interest-card {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1 1 200px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 5px #4CAF50;
+  transition: transform 0.3s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-5px);
+}
+
+.interest-card i {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #4CAF50;
+}
+
+/* Footer */
+.footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: black;
+  margin: 0 15px;
+  font-size: 26px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #4CAF50;
+}
